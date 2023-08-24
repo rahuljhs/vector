@@ -1,0 +1,4 @@
+{"file":"/mnt/data.csv","host":"021031e67ea3","message":"user_id,age,category","source_type":"file","timestamp":"2023-08-24T11:15:11.457442963Z"}
+{"file":"/mnt/data.csv","host":"021031e67ea3","message":"1,25,Young","source_type":"file","timestamp":"2023-08-24T11:15:11.458229630Z"}
+{"file":"/mnt/data.csv","host":"021031e67ea3","message":"2,30,Adult","source_type":"file","timestamp":"2023-08-24T11:15:11.458232046Z"}
+{"file":"/mnt/data.csv","host":"021031e67ea3","message":"3,28,Adult","source_type":"file","timestamp":"2023-08-24T11:15:11.458233963Z"}
