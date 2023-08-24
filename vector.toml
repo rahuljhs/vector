@@ -2,13 +2,11 @@
 enabled = true
 address = "0.0.0.0:8686"
 
-[sources.demo_logs]
-type = "demo_logs"
-interval = 1.0
-format = "json"
+[sources.my_csv_source]
+type = "file"
+include = ["/mnt/data.csv"]
 
 [sinks.console]
-inputs = ["demo_logs"]
-target = "stdout"
+inputs = ["my_csv_source"]
 type = "console"
 encoding.codec = "json"
