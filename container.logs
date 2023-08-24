@@ -1,4 +1,16 @@
-{"file":"/mnt/data.csv","host":"021031e67ea3","message":"user_id,age,category","source_type":"file","timestamp":"2023-08-24T11:15:11.457442963Z"}
-{"file":"/mnt/data.csv","host":"021031e67ea3","message":"1,25,Young","source_type":"file","timestamp":"2023-08-24T11:15:11.458229630Z"}
-{"file":"/mnt/data.csv","host":"021031e67ea3","message":"2,30,Adult","source_type":"file","timestamp":"2023-08-24T11:15:11.458232046Z"}
-{"file":"/mnt/data.csv","host":"021031e67ea3","message":"3,28,Adult","source_type":"file","timestamp":"2023-08-24T11:15:11.458233963Z"}
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.903375Z  INFO vector::app: Log level is enabled. level="vector=info,codec=info,vrl=info,file_source=info,tower_limit=info,rdkafka=info,buffers=info,lapin=info,kube=info"
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.903405Z  WARN vector::app: DEPRECATED The openssl legacy provider provides algorithms and key sizes no longer recommended for use. Set `--openssl-legacy-provider=false` or `VECTOR_OPENSSL_LEGACY_PROVIDER=false` to disable. See https://vector.dev/highlights/2023-08-15-0-32-0-upgrade-guide/#legacy-openssl for details.
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.906249Z  INFO vector::app: Loaded openssl provider. provider="legacy"
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.906290Z  INFO vector::app: Loaded openssl provider. provider="default"
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.909786Z  INFO vector::app: Loading configs. paths=["/etc/vector/vector.toml"]
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.922658Z  INFO vector::topology::running: Running healthchecks.
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.922761Z  INFO vector::topology::builder: Healthcheck passed.
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.923413Z  INFO vector: Vector has started. debug="false" version="0.32.1" arch="aarch64" revision="9965884 2023-08-21 14:52:38.330227446"
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.924571Z  INFO source{component_kind="source" component_id=my_csv_source component_type=file component_name=my_csv_source}: vector::sources::file: Starting file server. include=["/mnt/data.csv"] exclude=[]
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.925817Z  INFO source{component_kind="source" component_id=my_csv_source component_type=file component_name=my_csv_source}:file_server: file_source::checkpointer: Attempting to read legacy checkpoint files.
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.929135Z  INFO source{component_kind="source" component_id=my_csv_source component_type=file component_name=my_csv_source}:file_server: vector::internal_events::file::source: Found new file to watch. file=/mnt/data.csv
+2023-08-24 07:17:37 vector-vector-1  | 2023-08-24T11:17:37.929151Z  INFO vector::internal_events::api: API server running. address=0.0.0.0:8686 playground=http://0.0.0.0:8686/playground
+2023-08-24 07:17:37 vector-vector-1  | {"file":"/mnt/data.csv","host":"fda376195fb9","message":"user_id,age,category","source_type":"file","timestamp":"2023-08-24T11:17:37.929810250Z"}
+2023-08-24 07:17:37 vector-vector-1  | {"file":"/mnt/data.csv","host":"fda376195fb9","message":"1,25,Young","source_type":"file","timestamp":"2023-08-24T11:17:37.930082417Z"}
+2023-08-24 07:17:37 vector-vector-1  | {"file":"/mnt/data.csv","host":"fda376195fb9","message":"2,30,Adult","source_type":"file","timestamp":"2023-08-24T11:17:37.930084750Z"}
+2023-08-24 07:17:37 vector-vector-1  | {"file":"/mnt/data.csv","host":"fda376195fb9","message":"3,28,Adult","source_type":"file","timestamp":"2023-08-24T11:17:37.930086750Z"}
